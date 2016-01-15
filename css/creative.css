@@ -179,7 +179,7 @@ header {
     text-align: center;
     color: #fff;
     background-image: url(../img/header.jpg);
-    background-position: center;
+    background-position: top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -204,11 +204,20 @@ header .header-content .header-content-inner hr {
     margin: 30px auto;
 }
 
+header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+        background-color: rgba(120,120,120,.4);
+        padding:50px;
+        border-radius: 20px;
+    }
+
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,1);
 }
 
 @media(min-width:768px) {
@@ -229,6 +238,9 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
+        background-color: rgba(120,120,120,.4);
+        padding:50px;
+        border-radius: 20px;
     }
 
     header .header-content .header-content-inner p {
@@ -237,6 +249,9 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 18px;
     }
+    header .header-content .header-content-inner p, header .header-content .header-content-inner h1{
+        color: rgba(255,255,255,1);
+    } 
 }
 
 .section-heading {
@@ -474,4 +489,14 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+
+
+
+
+
+
+
+
+
 
