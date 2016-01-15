@@ -323,7 +323,7 @@ header .header-content .header-content-inner p {
     opacity: 1;
 }
 .portfolio-box .img-responsive{
-    height:350px;
+    /*height:350px;*/
     width:650px;
 }
 
