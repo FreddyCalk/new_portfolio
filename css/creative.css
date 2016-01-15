@@ -322,6 +322,10 @@ header .header-content .header-content-inner p {
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
 }
+.portfolio-box .img-responsive{
+    height:350px;
+    width:650px;
+}
 
 @media(min-width:768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
