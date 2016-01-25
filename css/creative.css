@@ -493,6 +493,12 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+header .header-content .header-content-inner p a{
+    color:white;
+}
+header .header-content .header-content-inner p a:hover{
+    text-decoration: none;
+}
 
 
 
